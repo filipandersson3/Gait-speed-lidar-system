@@ -1,0 +1,212 @@
+(footprint "D_3220_8050Metric_Pad2.65x5.15mm_HandSolder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Diode SMD 3220 (8050 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size from: http://datasheets.avx.com/schottky.pdf), generated with kicad-footprint-generator")
+	(tags "diode handsolder")
+	(property "Reference" "REF**"
+		(at 0 -3.53 0)
+		(layer "F.SilkS")
+		(uuid "041bbcdd-07ec-446a-9064-9d6aed23e5ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1A/40V/500mV"
+		(at 0 3.53 0)
+		(layer "F.Fab")
+		(uuid "935da9fb-2a9f-4a3e-9b5a-ef636ed43cc8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd996a1b-d3dc-44de-8d87-8660e8a7a283")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Schottky diode, small symbol, filled shape"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c80615a7-1fb8-4639-abd8-2e8932332db5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.86 -2.835)
+		(end -4.86 2.835)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11b28ec0-5c48-442c-acbd-54e8a7f8fbee")
+	)
+	(fp_line
+		(start -4.86 2.835)
+		(end 4 2.835)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a62bfa73-a92c-4b5d-9e76-a71b9ae12e11")
+	)
+	(fp_line
+		(start 4 -2.835)
+		(end -4.86 -2.835)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dfdf4a6c-9503-48bc-82c0-279ac0a3a7e9")
+	)
+	(fp_line
+		(start -4.85 -2.83)
+		(end 4.85 -2.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bfa5ad02-ec3a-4f84-95e7-3766df45f46b")
+	)
+	(fp_line
+		(start -4.85 2.83)
+		(end -4.85 -2.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8647f336-4ca4-4760-9ca6-5967418eb14b")
+	)
+	(fp_line
+		(start 4.85 -2.83)
+		(end 4.85 2.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f1f7c858-4445-4260-b216-d8cf4fa037fe")
+	)
+	(fp_line
+		(start 4.85 2.83)
+		(end -4.85 2.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "acf734cb-47e8-4dc4-a947-721a297f7653")
+	)
+	(fp_line
+		(start -4 -1.5)
+		(end -4 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5c93e5b3-6266-422c-b894-cbe77a7068b5")
+	)
+	(fp_line
+		(start -4 2.5)
+		(end 4 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b3fc6ce-1e08-43fb-90dd-927bfe0222a2")
+	)
+	(fp_line
+		(start -3 -2.5)
+		(end -4 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f5169cea-ae67-439c-aa38-0fe20fc7c2dd")
+	)
+	(fp_line
+		(start 4 -2.5)
+		(end -3 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c23c0846-f085-41ab-9f28-f2c1ea0e8944")
+	)
+	(fp_line
+		(start 4 2.5)
+		(end 4 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd73eb49-f766-4541-9938-630e0cda9b22")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "46415c2c-34b7-4227-be72-68e7e7f35473")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.275 0)
+		(size 2.65 5.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.09434)
+		(uuid "1e856a13-658f-4863-ad06-238738a35d11")
+	)
+	(pad "2" smd roundrect
+		(at 3.275 0)
+		(size 2.65 5.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.09434)
+		(uuid "4d468cef-3121-4945-807d-e9169159ed6c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/packages3D/D_3220_8050Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,380 @@
+(footprint "SOP65P640X120-16N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TSSOP 16")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "67a127ab-6d6b-4800-ad3e-5ff0b0296a2c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CD4050BPWR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e447d9b8-0990-42e4-ad28-feb868bcfe14")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4050b.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d76f975-660e-4cd8-86df-f1f87564b881")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "TEXAS INSTRUMENTS - CD4050BPWR - LOGIC, BUFF/CONVERTER HEX, 16TSSOP"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70805b4d-d30f-46db-b0ce-a3bc5274c691")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3c6e81d-72a7-41ce-9bf8-b5ee67da8afe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-CD4050BPWR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7ea8c5e-7320-466d-a2dc-b84b6caa7898")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD4050BPWR?qs=UFeyouyReuEX8o4osudYYQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "199a4a7b-a264-4556-9bdb-b3b8cffc2ece")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63cdd539-3d40-40c8-881b-5ab4e9481cc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "CD4050BPWR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "268288b0-f98d-40a3-ba58-45317654ca69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.675 -2.85)
+		(end -2.075 -2.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ab6edfc-75d2-4414-9670-e929db9aab0c")
+	)
+	(fp_line
+		(start -1.725 -2.5)
+		(end 1.725 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0d267bd-a535-4b96-adbf-388e96166dc0")
+	)
+	(fp_line
+		(start -1.725 2.5)
+		(end -1.725 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8711bd0c-0182-47c1-ab24-aa816f9acbd3")
+	)
+	(fp_line
+		(start 1.725 -2.5)
+		(end 1.725 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "533eb6e9-6939-4008-bef0-f2b4fc5e7f4d")
+	)
+	(fp_line
+		(start 1.725 2.5)
+		(end -1.725 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0452929e-9db9-43e8-8462-ab2ab2dce882")
+	)
+	(fp_line
+		(start -3.925 -2.8)
+		(end 3.925 -2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b7245e15-0218-47c4-824b-150792ca9266")
+	)
+	(fp_line
+		(start -3.925 2.8)
+		(end -3.925 -2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a502f67b-3483-4dae-afc6-ce62198ce005")
+	)
+	(fp_line
+		(start 3.925 -2.8)
+		(end 3.925 2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2ffd395d-8d23-48a2-ae36-127b55a45212")
+	)
+	(fp_line
+		(start 3.925 2.8)
+		(end -3.925 2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4d358fcb-79c4-4236-a5a3-977d5a898ed2")
+	)
+	(fp_line
+		(start -2.2 -2.5)
+		(end 2.2 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e7d59771-7d03-4f16-b54c-9ae65b41f640")
+	)
+	(fp_line
+		(start -2.2 -1.85)
+		(end -1.55 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bd09ee33-d683-4a4a-aeb9-1356b9314f36")
+	)
+	(fp_line
+		(start -2.2 2.5)
+		(end -2.2 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "14a28a2b-a653-4b37-896f-60922f546188")
+	)
+	(fp_line
+		(start 2.2 -2.5)
+		(end 2.2 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b8211521-1662-4d56-83dc-f0efedb2de4c")
+	)
+	(fp_line
+		(start 2.2 2.5)
+		(end -2.2 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "df033eda-92b9-413f-835e-df4bcc96c556")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4ffa2efe-287a-473f-881d-76627f7a3080")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.875 -2.275 90)
+		(size 0.45 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d00b678c-7047-4a76-b007-50082644db6a")
+	)
+	(pad "2" smd rect
+		(at -2.875 -1.625 90)
+		(size 0.45 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f36c0f11-6229-4a1a-a83d-c97201c994c0")
+	)
+	(pad "3" smd rect
+		(at -2.875 -0.975 90)
+		(size 0.45 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "adabee76-ea6d-40d0-a134-b6f5a041322b")
+	)
+	(pad "4" smd rect
+		(at -2.875 -0.325 90)
+		(size 0.45 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "54b64326-9f18-4106-82d8-991e66e3369f")
+	)
+	(pad "5" smd rect
+		(at -2.875 0.325 90)
+		(size 0.45 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7663c0be-ce05-4dde-bf47-d044ec2411d0")
+	)
+	(pad "6" smd rect
+		(at -2.875 0.975 90)
+		(size 0.45 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "af1fff1d-9c1e-4af8-b772-e2717f2e1bca")
+	)
+	(pad "7" smd rect
+		(at -2.875 1.625 90)
+		(size 0.45 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9dbb5110-e606-49d5-af6e-56b4011d5f2f")
+	)
+	(pad "8" smd rect
+		(at -2.875 2.275 90)
+		(size 0.45 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "760099bb-298d-4c2c-9321-b46fba6fc8e2")
+	)
+	(pad "9" smd rect
+		(at 2.875 2.275 90)
+		(size 0.45 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "83e2785a-4000-4dba-9eca-fbe568a3d59f")
+	)
+	(pad "10" smd rect
+		(at 2.875 1.625 90)
+		(size 0.45 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9ff4bf92-9039-405d-82fd-5978805125ec")
+	)
+	(pad "11" smd rect
+		(at 2.875 0.975 90)
+		(size 0.45 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1d8c3655-44d5-44f9-a88c-a294ce1e8112")
+	)
+	(pad "12" smd rect
+		(at 2.875 0.325 90)
+		(size 0.45 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "efcac2e2-d67f-4cc8-9ff8-fe2844ba0bb5")
+	)
+	(pad "13" smd rect
+		(at 2.875 -0.325 90)
+		(size 0.45 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "47f11be9-3e64-4749-908a-e5e10f61e4bb")
+	)
+	(pad "14" smd rect
+		(at 2.875 -0.975 90)
+		(size 0.45 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "55f4c276-87f5-4a53-844d-b52759ed279a")
+	)
+	(pad "15" smd rect
+		(at 2.875 -1.625 90)
+		(size 0.45 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a0cb5bf8-45cc-49c1-8d44-edff44ee0e52")
+	)
+	(pad "16" smd rect
+		(at 2.875 -2.275 90)
+		(size 0.45 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4aa11abc-6b53-4876-86d6-c9ede6408f72")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/packages3D/CD4050BPWR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

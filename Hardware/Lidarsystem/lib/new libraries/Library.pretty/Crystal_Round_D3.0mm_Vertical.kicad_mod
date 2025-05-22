@@ -1,0 +1,140 @@
+(footprint "Crystal_Round_D3.0mm_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Crystal THT C38-LF 8.0mm length 3.0mm diameter")
+	(tags "['C38-LF']")
+	(property "Reference" "REF**"
+		(at 0.95 -2.7 0)
+		(layer "F.SilkS")
+		(uuid "7d271b6d-7726-4f33-917c-dbb84eabee95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "32.768kHz"
+		(at 0.95 2.7 0)
+		(layer "F.Fab")
+		(uuid "2fcbe294-3d4d-4d37-93b5-da11f59222b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "425781b3-99d7-44fc-aca7-90eba7bb5fe3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Two pin crystal, small symbol"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "335ee565-30b8-4302-aa96-08081bb6ecff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_arc
+		(start -0.75 0)
+		(mid 0.95 -1.7)
+		(end 2.65 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e972154-3eed-47ee-bd5f-bd56c15461a4")
+	)
+	(fp_arc
+		(start 2.65 0)
+		(mid 0.95 1.7)
+		(end -0.75 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6baa6608-203d-41b3-848e-b32ac7f9a370")
+	)
+	(fp_circle
+		(center 0.95 0)
+		(end 2.9 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0f205537-8442-4243-92f9-e83ab3bcbba5")
+	)
+	(fp_circle
+		(center 0.95 0)
+		(end 2.45 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "87d3b56e-4991-46ca-8a56-79e495bb9499")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.95 0 0)
+		(layer "F.Fab")
+		(uuid "21a01fb5-5476-4c48-bfa5-829d00906a8a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6ce2ef11-1792-4391-9945-1870d4e4613b")
+	)
+	(pad "2" thru_hole circle
+		(at 1.9 0)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "378b1b14-792a-4603-b279-4229930c3049")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/packages3D/Crystal_Round_D3.0mm_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

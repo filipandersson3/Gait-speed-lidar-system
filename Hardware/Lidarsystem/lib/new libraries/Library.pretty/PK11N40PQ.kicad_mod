@@ -1,0 +1,326 @@
+(footprint "PK11N40PQ"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PK-11N40PQ-2")
+	(tags "Loudspeaker or Buzzer")
+	(property "Reference" "REF**"
+		(at 0 -3.8 180)
+		(layer "F.SilkS")
+		(uuid "cbd0e55c-0e68-43c2-a450-39728ceba965")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "PK-11N40PQ"
+		(at 0 -3.8 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e91a2f19-8ae7-4e7f-97fd-68c158af1701")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-14/274928.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f25a267-e60e-4cb2-931b-40d4ef9810a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Buzzers Indicator, Internally Driven Piezo 5V 5mA 4.1kHz 80dB @ 5V, 10cm Through Hole PC Pins"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff231948-3946-45b6-a28b-9c86877a8dfa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "5.5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27e0bd39-53e0-4375-8ba4-efb4afac7f4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "539-PK-11N40PQ"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d68d42d0-120e-45b3-a7ba-65b446a33be2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mallory-Sonalert/PK-11N40PQ?qs=SXHtpsd1MbZ%252B7jeUyAAOVA%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0e803e1-e897-49de-a9f3-0c997a54a21b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Mallory Sonalert"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69b5cb34-3b84-4d65-9221-5c45c621f7f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "PK-11N40PQ"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d99fee8-bdbe-4221-a2bd-e2897f8b4195")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6 -3.8)
+		(end -6 -3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1984687-eeb2-4402-914b-092da83dc0bf")
+	)
+	(fp_line
+		(start -0.1 2.7)
+		(end -0.1 2.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4fd68772-a7b9-49ca-852a-370a9c0a01a7")
+	)
+	(fp_line
+		(start 0.1 2.7)
+		(end 0.1 2.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76936b45-17c7-4d63-ab1e-c265b91cb6e9")
+	)
+	(fp_line
+		(start 6 -3.8)
+		(end 6 -3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "66ac8a39-90a9-4f6a-ac94-3936d8dfae63")
+	)
+	(fp_arc
+		(start -6 -3.8)
+		(mid 0 -9.8)
+		(end 6 -3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75044278-1d74-4d10-92d6-ae0dfcb7eab5")
+	)
+	(fp_arc
+		(start -0.1 2.7)
+		(mid 0 2.6)
+		(end 0.1 2.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a0a0c60-4da3-4049-bf23-425098756698")
+	)
+	(fp_arc
+		(start 0.1 2.7)
+		(mid 0 2.8)
+		(end -0.1 2.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "823c5106-0dbc-4370-842a-bd3e7c1873d8")
+	)
+	(fp_arc
+		(start 6 -3.8)
+		(mid 0 2.2)
+		(end -6 -3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38073400-5626-4b51-8c37-270bb44a4c8e")
+	)
+	(fp_line
+		(start -7 -10.8)
+		(end 7 -10.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "588ff300-3dc3-45da-ab1c-ccbb3ea44855")
+	)
+	(fp_line
+		(start -7 3.2)
+		(end -7 -10.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "062d130b-4bf9-4736-bcd4-7ae493b54ea3")
+	)
+	(fp_line
+		(start 7 -10.8)
+		(end 7 3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4e81e2c3-ff57-46a4-97ef-dd817571dac5")
+	)
+	(fp_line
+		(start 7 3.2)
+		(end -7 3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d53fcd6-98ff-4d4a-8a01-9e34d8429423")
+	)
+	(fp_line
+		(start -6 -3.8)
+		(end -6 -3.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "84ba87f6-348a-407f-8e8c-44383889a0e4")
+	)
+	(fp_line
+		(start 6 -3.8)
+		(end 6 -3.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d00801c-7432-42a7-a57d-0dce95d0d43b")
+	)
+	(fp_arc
+		(start -6 -3.8)
+		(mid 0 -9.8)
+		(end 6 -3.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2abc6496-d2b9-4844-bfeb-c20e4cbd9139")
+	)
+	(fp_arc
+		(start 6 -3.8)
+		(mid 0 2.2)
+		(end -6 -3.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a4b2950-6c17-4372-90f2-637309f0034a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.8 180)
+		(layer "F.Fab")
+		(uuid "98c184bb-579f-429c-a098-3f044f5326cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7212f02d-b6d9-455d-80c6-3bd3a16a97c2")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -7.6)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "35d6373a-878d-46c1-a527-7a049cb1e192")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/packages3D/PK-11N40PQ.stp"
+		(offset
+			(xyz 0 3.799999895 5.99999991)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
